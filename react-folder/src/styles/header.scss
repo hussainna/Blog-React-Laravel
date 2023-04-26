@@ -1,0 +1,42 @@
+@import './config.scss';
+
+header{
+    .container{
+        @include flex(space-between,center);
+    }
+    .middle{
+        text-align: center;
+    }
+    .logo{
+        color: $lightBlue;
+        font-size: 30px;
+    }
+    h1{
+        font-size: 46px;
+        color: $blue;
+        margin-bottom: 10px;
+    }
+    p{
+        color: $p;
+        font-weight: 600;
+        max-width: 55%;
+        margin-left: 22%;
+    }
+    a{
+        margin-left: 10px;
+        background-color: $blue;
+        border: none;
+        padding: 6px 20px;
+        color: #fff;
+        border-radius: 5px;
+    }
+    button{
+        background-color: red;
+        border: none;
+        padding: 6px 20px;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+}

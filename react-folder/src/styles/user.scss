@@ -1,0 +1,43 @@
+@import './config.scss';
+.user{
+    .top{
+        text-align: center;
+        margin-bottom: 20px;
+        h2{
+            color: $lightBlue;
+            font-size: 30px;
+        }
+        h1{
+            font-size: 46px;
+            color: $blue;
+            margin: 10px 0;
+        }
+        p{
+            color: $p;
+            font-weight: 600;
+            max-width: 55%;
+            margin-left: 22%;
+            margin-bottom: 20px;
+        }
+        a{
+            margin-top: 10px;
+
+            background-color: $blue;
+            border: none;
+            padding: 6px 20px;
+            color: #fff;
+            border-radius: 5px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            width: 10%;
+            position: relative;
+            left: 45%;
+        }
+        i{
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+    }
+    
+}
